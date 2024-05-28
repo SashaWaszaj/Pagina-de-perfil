@@ -1,0 +1,147 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title  {
+    color: aliceblue;
+    padding: 5px 20px;
+    margin: 5px;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+.nav-links {
+    display: flex;
+}
+ul {
+    margin: 0;
+}
+.btn {
+    color: aliceblue;
+    background-color: royalblue;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 3px 3px black;
+}
+.nav-btn {
+    color: lightgrey;
+    text-decoration-line: none;
+}
+
+#jane {
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+    padding-top: 40px;
+    margin-bottom: -40px;
+}
+.background {
+    background-color: lightskyblue;
+    size: 500px 84px;
+}
+h2{
+    margin: 50px 20px 5px 20px;
+}
+h3{
+    margin: 5px 20px;
+}
+p{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.edit{
+    margin: 20px;
+}
+#gear {
+    width:20px;
+    height: 20px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+.main {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.card {
+    border-style: solid;
+    border-color: gray;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: gray;
+}
+.right-column{
+    margin-right: 50px;
+}
+.requests{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 20px;
+}
+.linea-perf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.connections{
+    border-style: solid;
+    border-color: gray;
+}
+.profpic{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+.title-box{
+    background-color: rgb(66, 63, 63);
+    color:aliceblue;
+    padding: 20px;
+}
+.grey{
+    background-color: rgb(66, 63, 63);
+
+}
+span{
+    background-color: lightgray;
+    color: rgb(66, 63, 63);
+    border-radius: 50pt;
+    padding: 5px;
+}
+#date{
+    color: gray;
+}
+#viewmore{
+    padding: 15px 20px;
+}
+img.profpic{
+    vertical-align:middle;
+}
